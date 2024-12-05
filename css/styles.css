@@ -109,9 +109,9 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5
+    color: #4d5ae5;
 }
 .accent-footer{
     color: #F4F4FD;
