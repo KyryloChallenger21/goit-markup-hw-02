@@ -1,8 +1,39 @@
-.page-title {
+body {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 2%;
+        line-height: 24px;
+        color: #434455;
 
+}
+a {
+        font-size: 12px;
+        letter-spacing: 4%;
+        line-height: 16px;
+        text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.header-link {
+    color: #2E2F42;
+}
+.header-link:focus, .header-link:hover {
+    color: #404BBF;
+}
+.address-link, .number-link {
+    color: #434455; 
+}
+.address-link:focus, .number-link:focus, .address-link:hover, .number-link:hover {
+    color: #404BBF;
+}
+.page-title {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
     color: #FFFFFF;
 }
 .title {
@@ -10,28 +41,31 @@
 }
 button {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 4%;
         color: #FFFFFF;
 }
 .section-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 .section-header {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-size: 36px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 .section-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #434455
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2%;
 }
-.emblem {
+.logo {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -45,7 +79,7 @@ button {
     text-transform: uppercase;
     color: #4D5AE5
 }
-.emblem2 {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -57,4 +91,7 @@ button {
 }
 footer {
     background-color:#2E2F42;
+}
+.footer-text {
+    color: #F4F4FD
 }
