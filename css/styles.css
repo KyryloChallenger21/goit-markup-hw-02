@@ -76,13 +76,14 @@ button {
 .section-header {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .section-text {
-    font-size: 12px;
     line-height: 14px;
-    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .logo {
     font-family: "Raleway", sans-serif;
